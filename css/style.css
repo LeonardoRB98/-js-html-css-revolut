@@ -39,16 +39,27 @@ header {
   justify-content: flex-end;
   align-items: center;
 }
-#logo {
-  width: 40px;
-  height: 40px;
-}
-#logo img {
-  width: 100%;
+#header_right li {
+  position: relative;
+  /* background-color: purple; */
 }
 #header_right ul li:last-of-type a.btn  {
   background-color: black;
   color: white;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  min-width: 130px;
+  border-radius: 10px;
+  background-color: red;
+  box-shadow: 
+}
+
+.dropdown ul li {
+  padding: 10px;
 }
 
 #header_left {
@@ -59,17 +70,10 @@ header {
 #header_left li:first-of-type a {
   padding-left: 25px;
 }
-.dropdown {
-  display: none;
-  position: absolute;
-  top: 75px;
-  right: 260px;
-  width: 100px;
-  background-color: red;
+#logo {
+  width: 40px;
+  height: 40px;
 }
-/* .active {
-  display: none;
-} */
-.dropdown ul li {
-  padding: 10px;
+#logo img {
+  width: 100%;
 }
