@@ -60,15 +60,16 @@ header {
   padding-left: 25px;
 }
 .dropdown {
+  display: none;
   position: absolute;
   top: 75px;
   right: 260px;
   width: 100px;
   background-color: red;
 }
-.active {
+/* .active {
   display: none;
-}
+} */
 .dropdown ul li {
   padding: 10px;
 }
