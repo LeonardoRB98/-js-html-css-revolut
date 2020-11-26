@@ -6,20 +6,19 @@ $(document).ready(
 
     list.mouseenter(
       function() {
-        // console.log(alert('funziona'));
-        $(this).children('.dropdown').toggle();
+        $(this).children('.dropdown').addClass('active');
       }
     );
     list.mouseleave(
       function() {
-        $(this).children('.dropdown').toggle();
+        $(this).children('.dropdown').removeClass('active');
       }
     );
 
-    list.click(
-      function() {
-        $(this).children('.dropdown').toggle();
-      }
-    );
+    // list.click(
+    //   function() {
+    //     $(this).children('.dropdown').toggle();
+    //   }
+    // );
   }
 );

@@ -11,6 +11,7 @@ a {
 a:hover {
   color: black;
 }
+
 .flex {
   display: flex;
 }
@@ -75,4 +76,7 @@ header {
 }
 #logo img {
   width: 100%;
+}
+.active {
+  display: block;
 }
